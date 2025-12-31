@@ -226,6 +226,19 @@ footer.all {
 
 
 /* Dark mode styles */
+body.dark-mode a {
+    color: #4dabff; /* A lighter, more vibrant blue for readability */
+}
+
+body.dark-mode .description {
+    color: #ccc; /* Slightly softer white for long paragraphs to reduce eye strain */
+}
+
+/* Ensure the input text is visible */
+body.dark-mode input[type="number"] {
+    background-color: #2a2a2a;
+    color: #fff;
+}
 body.dark-mode {
     background-color: #333;
     color: #f4f4f4;
